@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="app_exercicio.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Purple"     Padding="24" CornerRadius="0">
+            <Label Text="Foto Mapa" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button Text="Tirar foto" x:Name="btnFoto" Clicked="btnFoto_Clicked" CornerRadius="45" />
+        <StackLayout>
+            <Image x:Name="resultImage"/>
+        </StackLayout>
+        <Button Text="Mostrar mapa" x:Name="btnMapa" Clicked="btnMapa_Clicked" CornerRadius="45"/>
+    </StackLayout>
+
+</ContentPage>
